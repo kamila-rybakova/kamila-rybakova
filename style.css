@@ -450,6 +450,20 @@ xclip
     background-color: #333333;
 }
 
+#mainNav .navbar-nav {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    width: 100%;
+}
+
+#mainNav .navbar-nav .nav-item {
+    margin: 0 10px; 
+}
+
+
 #clouds{
 	margin-top: -5%;
 	position: relative;
@@ -1442,9 +1456,26 @@ hr.invis1 {
 	border-radius: 0px;
 }
 
+.card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 24px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .gallery-single{
-	margin: 30px 15px;;
+	width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
 }
 
 .gallery-single {
@@ -1456,18 +1487,12 @@ hr.invis1 {
 
 .gallery-list .img-overlay {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    right: 10px;
+    width: 500px;
+    height: 100px;
+    top: 40%;
+    left: 20%;
+    right: 20%;
     bottom: 10px;
-    background: rgba(51, 51, 51, 0.80);
-    color: #35424C;
-    opacity: 0;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    z-index: 2;
-    -webkit-transform: translateY(10px);
-    transform: translateY(10px);
 }
 
 .gallery-list .gallery-single:hover .img-overlay {
@@ -1477,8 +1502,15 @@ hr.invis1 {
 }
 
 .gallery-list .gallery-single:hover .img-overlay .hoverbutton{
+    width: 500px;
+    height: 100px;
 	opacity: 1;
-	top: 50%;
+	top: 40%;
+    background: #3333337c;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 
 
