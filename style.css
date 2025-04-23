@@ -2499,3 +2499,20 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+.carousel-item .row {
+    margin: 0;
+}
+.carousel-item .col-md-4 {
+    padding: 5px;
+}
+.carousel-inner img {
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
